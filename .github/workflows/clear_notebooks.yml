@@ -1,0 +1,30 @@
+name: Clear Notebook Output
+
+on: [push]
+
+jobs:
+  clear_output:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Specify the Python version you want to use
+
+    - name: Install nbstripout
+      run: |
+        python -m pip install --upgrade pip
+        pip install nbstripout
+
+    - name: Run nbstripout to clear notebook output
+      run: |
+        find . -name "*.ipynb" | xargs nbstripout
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Clear notebook output"
+        git push
