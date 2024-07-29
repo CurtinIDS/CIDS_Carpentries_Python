@@ -1,0 +1,13 @@
+export notebook_directory='./notebooks'
+export colab_directory='./colab_notebooks'
+
+# Run colab builder
+echo "Building colab notebooks"
+python build_scripts/colab_nb_builder.py --directory $notebook_directory --output_dir $colab_directory
+git add ${colab_directory}
+
+# Strip notebooks
+echo "Stripping all notebooks"
+sh build_scripts/strip_notebooks.sh
+
+exit 0
