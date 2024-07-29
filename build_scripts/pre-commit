@@ -1,5 +1,5 @@
 export notebook_directory='./notebooks'
-export colab_directory='./colab_notebooks'
+export colab_directory='./notebooks_colab'
 
 # Run colab builder
 echo "Building colab notebooks"
