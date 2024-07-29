@@ -3,5 +3,5 @@
 !unzip -o data.zip -d ../data
 # Now list the contents to make sure we see the 4 shapefile components (.dbf, .prj, .shp, and .shx)
 !echo 
-!echo The data folder contents:
+!echo The data folder contains:
 !ls -al ../data

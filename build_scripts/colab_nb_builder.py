@@ -29,7 +29,7 @@ def get_requirements_cell(requirements_path: str | Path) -> dict:
 
     for i, line in enumerate(extra_lines):
         cell_data.insert(i, line)
-    cell_data.append("\n!echo All done! Test below if it works.")
+    cell_data.append("\n!echo All done! ")
 
     jupyter_cell = {
         "cell_type": "code",
