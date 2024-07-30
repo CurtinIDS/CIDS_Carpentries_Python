@@ -25,7 +25,7 @@ Prior to attending this workshop, please follow the below instructions to setup 
 
     ![Download Visual Studio Code](assets/vs_code_download.jpg)
 3. Run the Visual Studio Code Installer and follow all prompts.
-4. Open Visual Studio Code, navigate to the File Explorer and clone this repository with the following repository name `CurtinIDS/CIDS_Carpentries_Python` into your preferred folder destination.
+4. Open Visual Studio Code, navigate to the File Explorer and clone this repository with the following repository name `https://github.com/CurtinIDS/CIDS_Carpentries_Python` into your preferred folder destination.
 
     ![Clone Repository with Visual Studio Code](assets/vs_code_clone_repo.jpg)
 5. Navigate to the Extension sidebar then search for and install the Python and Jupyter extensions.
@@ -33,15 +33,18 @@ Prior to attending this workshop, please follow the below instructions to setup 
     ![Installing Extensions](assets/vs_code_extensions.jpg)
 6. Enter the Visual Studio Code Command Pallette using `Ctrl + Shift + P` (Windows) or `Command + Shift + P` (MacOS) and locate `Python: Create Environment`.
 
-    ![Creating a Virtual Environment](assets/vs_code_create_environment.jpg)
+    ![Creating a Virtual Environment](assets/vs_code_create_environment.png)
 7. Select `Conda`.
 
-    ![Creating a Conda Environment](assets/conda_env.jpg)
+    ![Creating a Conda Environment](assets/conda_env.png)
 8. Select `Python 3.11`.
 
-    ![Selecting Python Version](assets/python_version.jpg)
+    ![Selecting Python Version](assets/python_version.png)
 9. Open Command Prompt or Terminal within Visual Studio Code using `Ctrl + J` (Windows) or `Command + J` (MacOS).
-10. Run the following command to install dependencies.
+10. Activate the created environment using the following command.
+
+    `conda activate ./.conda/`
+11. Run the following command to install dependencies.
 
     `pip install -r requirements.txt`
 
@@ -60,7 +63,7 @@ If you were unable to complete the above steps, you may alternatively access the
 
 # Contributing (Instructors only)
 If you wish to contribute, it's recommended to add the included pre-commit to your hooks.   
-Once you've clonedcloned, in a terminal in the main repo directory run the following:
+Once you've cloned, in a Terminal window opened within the main repo directory, run the following:
 ```
 cp build_scripts/pre-commit .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
