@@ -1,7 +1,7 @@
 # Now ensure the data we need is in the correct place
-!wget --no-verbose --output-document data.zip https://github.com/CurtinIDS/CIDS_Carpentries_Python/releases/download/stable/data.tar.gz
-!unzip -o data.zip -d ../data
-# Now list the contents to make sure we see the 4 shapefile components (.dbf, .prj, .shp, and .shx)
+!wget --no-verbose --output-document data.tar.gz https://github.com/CurtinIDS/CIDS_Carpentries_Python/releases/download/stable/data.tar.gz
+!tar xf /content/data.tar.gz -C /content
+# Now list the contents of the data folder
 !echo 
 !echo The data folder contains:
-!ls -al ../data
+!ls -al /content/data
