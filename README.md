@@ -1,7 +1,7 @@
 # CIDS_Carpentries_Python
 Curtin Institute for Data Science adaptation of the [Software Carpentries](https://swcarpentry.github.io/python-novice-inflammation/) and [Data Carpentries](https://datacarpentry.org/python-ecology-lesson/) Python lessons.
 
-The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis.
+The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. 
 
 ## Schedule
 1. [Introduction to the Workshop and Tools](https://docs.google.com/presentation/d/1fLcE69MHGyxIe7hQbCRfwvFBdZb83kb4wilbCrWWq0w/edit?usp=sharing)
