@@ -11,5 +11,5 @@ To bore you with details, these cells will:
 ### 🧙‍♀️ Wizards
 🧙‍♂️ If you're a wizard, here's some info about colab you may want to know:
 - Each Colab notebook runs on its own temporary Linux virtual machine with its own filesystem.   
-- If your notebook is shutdown, this will delete the temporary instance - this is why you need to mount Google Drive
+- If your notebook is shutdown, this will delete the temporary instance - you can [mount your google drive](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=u22w3BFiOveA) to persist files
 - Colab seems to let you have about 3 notebook instances running at any time; each of these will be on their own unique VM
