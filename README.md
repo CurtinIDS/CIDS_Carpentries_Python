@@ -4,7 +4,7 @@ Curtin Institute for Data Science adaptation of the [Software Carpentries](https
 The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. 
 
 ## Schedule
-1. [Introduction to the Workshop and Tools](https://docs.google.com/presentation/d/1fLcE69MHGyxIe7hQbCRfwvFBdZb83kb4wilbCrWWq0w/edit?usp=sharing)
+1. [Introduction to the Workshop and Tools](https://tinyurl.com/202409-cids-python)
 2. [Python Fundamentals](https://swcarpentry.github.io/python-novice-inflammation/01-intro.html)
 3. [Analysing Patient Data](https://swcarpentry.github.io/python-novice-inflammation/02-numpy.html)
 4. [Visualising Tabular Data](https://swcarpentry.github.io/python-novice-inflammation/03-matplotlib.html)
