@@ -20,32 +20,56 @@ The best way to learn how to program is to do something useful, so this introduc
 Prior to attending this workshop, please follow the below instructions to setup your personal laptop. **Ensure that you have administrator permissions if you are using a corporate laptop.**
 
 ### Local Setup
-1. Navigate to the https://code.visualstudio.com/ with your web browser.
-2. Download Visual Studio Code for your specific platform/Operating System.
+The local setup involves installing 4 things:
+1. Python
+2. Git
+3. VSCode
+4. VSCode Python & Jupyter extensions
+You may be able to skip installing git if you already have it installed from the git workshop
+
+The full setup instructions are:
+Python
+1. Navigate to  the website https://www.python.org/downloads/ with your web browser.
+2. Download Python 3.13 (3.13.7 is fine) for your operating system
+3. Run the installer, following all prompts using the default settings
+Git
+4. Navigate to the website https://git-scm.com/downloads with your web browser
+5. Download git for your operating system
+6. Run the installer, following all prompts using the default settings  
+VSCode
+7. Navigate to the website https://code.visualstudio.com/ with your web browser.
+8. Download Visual Studio Code for your specific platform/Operating System.
 
     ![Download Visual Studio Code](assets/vs_code_download.jpg)
-3. Run the Visual Studio Code Installer and follow all prompts.
-4. Open Visual Studio Code, navigate to the File Explorer and clone this repository with the following repository name `https://github.com/CurtinIDS/CIDS_Carpentries_Python` into your preferred folder destination.
+9. Run the Visual Studio Code Installer and follow all prompts.
+10. Open Visual Studio Code, navigate to the File Explorer and clone this repository with the following repository name `https://github.com/CurtinIDS/CIDS_Carpentries_Python` into your preferred folder destination.
 
     ![Clone Repository with Visual Studio Code](assets/vs_code_clone_repo.jpg)
-5. Navigate to the Extension sidebar then search for and install the Python and Jupyter extensions.
+11. Navigate to the Extension sidebar then search for and install the Python and Jupyter extensions.
 
     ![Installing Extensions](assets/vs_code_extensions.jpg)
-6. Enter the Visual Studio Code Command Pallette using `Ctrl + Shift + P` (Windows) or `Command + Shift + P` (MacOS) and locate `Python: Create Environment`.
+12. Enter the Visual Studio Code Command Pallette using `Ctrl + Shift + P` (Windows) or `Command + Shift + P` (MacOS) and locate `Python: Create Environment`.
 
     ![Creating a Virtual Environment](assets/vs_code_create_environment.png)
-7. Select `Conda`.
+13. Select `venv`.
 
     ![Creating a Conda Environment](assets/conda_env.png)
-8. Select `Python 3.11`.
+14. Select `Python 3.13`. (the version you just installed)
 
     ![Selecting Python Version](assets/python_version.png)
-9. Open Command Prompt or Terminal within Visual Studio Code using `Ctrl + J` (Windows) or `Command + J` (MacOS).
-10. Activate the created environment using the following command.
+15. When asked to "Select dependencies to install", click the box next to requirements.txt and click "ok"
+    
+    ![Selecting Dependencies](assets/vs_code_dependencies.png)
+You should now be done!
 
-    `conda activate ./.conda/`
-11. Run the following command to install dependencies.
-
+ONLY if you didnt do the step above when you needed to:
+1. Open Command Prompt or Terminal within Visual Studio Code using `Ctrl + J` (Windows) or `Command + J` (MacOS). Make sure the "Terminal" tab is selected, and you're in the previuously cloned directory
+2. Activate the created environment using the following command.
+    Windows (powershell):
+    `.\.venv\Scripts\Activate.ps1`  
+    Mac/Linux:
+    `source ./venv/bin/activate`  
+4. Run the following command to install dependencies while in the activated environment.
     `pip install -r requirements.txt`
 
 ### Google Colab
