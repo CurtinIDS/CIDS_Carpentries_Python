@@ -6,7 +6,7 @@ The best way to learn how to program is to do something useful, so this introduc
 ## Schedule
 Slides: [Introduction to the Workshop and Tools](https://tinyurl.com/202510-cids-python)
 1. [Python Fundamentals](notebooks/1_Python_Fundamentals.ipynb)
-2. [Analysing Patient Data](2_Analysing_Patient_Data.ipynb)
+2. [Analysing Patient Data](notebooks/2_Analysing_Patient_Data.ipynb)
 3. [Visualising Tabular Data](notebooks/3_Visualising_Tabular_Data.ipynb)
 4. [Storing Multiple Values in Lists](notebooks/4_Storing_Multiple_Values_in_Lists.ipynb)
 5. [Repeating Actions with Loops](notebooks/5_Repeating_Actions_with_Loops.ipynb)
