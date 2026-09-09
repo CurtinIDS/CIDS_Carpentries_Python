@@ -4,17 +4,16 @@ Curtin Institute for Data Science adaptation of the [Software Carpentries](https
 The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. 
 
 ## Schedule
-1. [Introduction to the Workshop and Tools](https://tinyurl.com/202510-cids-python)
-2. [Python Fundamentals](https://swcarpentry.github.io/python-novice-inflammation/01-intro.html)
-3. [Analysing Patient Data](https://swcarpentry.github.io/python-novice-inflammation/02-numpy.html)
-4. [Visualising Tabular Data](https://swcarpentry.github.io/python-novice-inflammation/03-matplotlib.html)
-5. [Storing Multiple Values in Lists](https://swcarpentry.github.io/python-novice-inflammation/04-lists.html)
-6. [Repeating Actions with Loops](https://swcarpentry.github.io/python-novice-inflammation/05-loop.html)
-7. [Analysing Data from Multiple Files](https://swcarpentry.github.io/python-novice-inflammation/06-files.html) 
-8. [Making Choices](https://swcarpentry.github.io/python-novice-inflammation/07-cond.html) 
-9. [Creating Functions](https://swcarpentry.github.io/python-novice-inflammation/08-func.html)
-10. [Data Analysis with Pandas](https://datacarpentry.org/python-ecology-lesson/02-starting-with-data.html)
-
+Slides: [Introduction to the Workshop and Tools](https://tinyurl.com/202510-cids-python)
+1. [Python Fundamentals](notebooks/1_Python_Fundamentals.ipynb)
+2. [Analysing Patient Data](2_Analysing_Patient_Data.ipynb)
+3. [Visualising Tabular Data](notebooks/3_Visualising_Tabular_Data.ipynb)
+4. [Storing Multiple Values in Lists](notebooks/4_Storing_Multiple_Values_in_Lists.ipynb)
+5. [Repeating Actions with Loops](notebooks/5_Repeating_Actions_with_Loops.ipynb)
+6. [Analysing Data from Multiple Files](notebooks/6_Analysing_Data_from_Multiple_Files.ipynb) 
+7. [Making Choices](notebooks/7_Making_Choices.ipynb) 
+8. [Creating Functions](notebooks/8_Creating_Functions.ipynb)
+9. [Data Analysis with Pandas](notebooks/9_Data_Analysis_with_Pandas.ipynb)
 
 ## Before You Start
 Prior to attending this workshop, please follow the below instructions to setup your personal laptop. **Ensure that you have administrator permissions if you are using a corporate laptop.**
